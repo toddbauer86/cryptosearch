@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Crypto Search Dashboard</title>
+    <link href="https://cdn.muicss.com/mui-0.10.3/css/mui.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+
+<body>
+    <header class="mui-appbar mui--z1">
+        <div class="mui-container">
+            <table>
+                <tr class="mui--appbar-height">
+                    <td class="mui--text-display1 mui--text-center">Crypto Dashboard</td>
+                </tr>
+            </table>
+        </div>
+    </header>
+    <br>
+    <br>
+    <div id="content-wrapper" class="mui--text-center">
+        <div class="mui--text-subhead mui-col-md-3 mui-container mui--z3 mui--divider-right searchBox"
+            style="background-color:#444; margin: 10px;">
+            <div class="mui--text-display1 mui--text-light">Search cryptocurrency:</div>
+            <br>
+            <input type="text" class="form-control" id="crypto-search" style="background-color: #fff;">
+            <button onclick="getExchangeRate()" class="mui-btn mui-btn--large mui-btn--raised mui-btn--danger"
+                searchBtn" id="searchBtn">Search</button>
+            <br>
+            <a href="currencylist.html" class="mui--text-light" target="_blank">List of accepted currencies</a>
+
+        </div>
+
+
+
+
+        <div class="mui-col-md-4 mui-container mui--z3 mui--divider-right cryptoPriceCard" id="cryptoCard"
+            style="border-radius: 15px; background-color:#444; margin: 10px">
+            <div class="crypto-header mui--text-light mui--text-center mui--text-headline" id="cryptoID"></div>
+            <div class="crypto-card mui--text-accent mui--text-center mui--text-title" id="price"></div>
+            <div class="crypto-card mui--text-accent mui--text-center mui--text-title" id="change"></div>
+        </div>
+
+
+
+        <div class="mui-col-md-4 mui-container mui--z3 mui--divider-right exchangeRateCard" id="exchangeCard"
+            style="border-radius: 15px; background-color:#444; margin: 10px;">
+            <div class="exchangeHeader mui--text-light mui--text-center mui--text-headline" id="exchangeHeader"></div>
+            <div class="USD mui--text-accent mui--text-title" id="cardUSD"></div>
+            <div class="CAD mui--text-accent mui--text-title" id="cardCAD"></div>
+            <div class="AUD mui--text-accent mui--text-title" id="cardAUD"></div>
+            <div class="JPY mui--text-accent mui--text-title" id="cardJPY"></div>
+        </div>
+    </div>
+
+    <br>
+
+    </div>
+    <footer>
+        <div class="mui-container mui--text-center">
+
+        </div>
+    </footer>
+    <script src="./assets/script.js"></script>
+</body>
+
+</html>

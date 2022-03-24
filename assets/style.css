@@ -1,0 +1,98 @@
+/* /* *
+ * Body CSS
+ */
+/* 
+html,
+body {
+  height: 100%;
+}
+html,
+body,
+input,
+textarea,
+button {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+} */
+
+/**
+ * Header CSS
+ */
+/* 
+header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 2;
+} */
+/* 
+header ul.mui-list--inline {
+  margin-bottom: 0;
+}
+header a {
+  color: white;
+}
+header table {
+  width: 100%;
+}
+ */
+
+/**
+ * Content CSS
+ */
+/* 
+#content-wrapper {
+  min-height: 100%;
+  /* sticky footer */
+/* box-sizing: border-box;
+  margin-bottom: -100px;
+  padding-bottom: 100px;
+} */
+
+body {
+  background-color: rgb(48, 47, 47);
+  margin: 15px;
+}
+
+.mui-appbar {
+  background-color: darkseagreen;
+  border-radius: 15px;
+}
+
+.mui--text-accent {
+  color: rgba(143, 188, 143, 0.589);
+}
+
+.subheader {
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+/* .cryptoPriceCard,
+.exchangeRateCard {
+  /* border: 1px black solid; */
+/* } */
+
+.searchBox {
+  text-align: center;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.searchBox input {
+  width: 85%;
+}
+
+.searchBox button {
+  width: 100%;
+  background-color: darkseagreen;
+}
+
+.cryptoPriceCard,
+.exchangeRateCard {
+  text-align: center;
+  border-radius: 15px;
+  padding: 20px;
+}
