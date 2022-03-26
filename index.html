@@ -25,13 +25,24 @@
     <div id="content-wrapper" class="mui--text-center">
         <div class="mui--text-subhead mui-col-md-3 mui-container mui--z3 mui--divider-right searchBox"
             style="background-color:#444; margin: 10px;">
-            <div class="mui--text-display1 mui--text-light">Search cryptocurrency:</div>
+            <!-- <div class="mui--text-display1 mui--text-light">Search cryptocurrency:</div> -->
             <br>
-            <input type="text" class="form-control" id="crypto-search" style="background-color: #fff;">
-            <button onclick="getExchangeRate()" class="mui-btn mui-btn--large mui-btn--raised mui-btn--danger"
+
+            <form id="searchForm">
+                <!-- <input type="text" class="form-control" id="crypto-search" style="background-color: #fff;"> -->
+                <label class="coins" for="coins">Select Coin:</label>
+
+                <select id="currencies">
+
+
+                </select>
+
+
+                <button type="submit" class="mui-btn mui-btn--large mui-btn--raised mui-btn--danger
                 searchBtn" id="searchBtn">Search</button>
+            </form>
             <br>
-            <a href="currencylist.html" class="mui--text-light" target="_blank">List of accepted currencies</a>
+            <!-- <a href="currencylist.html" class="mui--text-light">List of accepted currencies</a> -->
 
         </div>
 
