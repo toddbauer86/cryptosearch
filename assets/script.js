@@ -65,7 +65,7 @@ function getExchangeRate() {
     })
     .then(function (data) {
       var USD = 1;
-      var AUD = Math.abs(data.rates.EUR.rate);
+      var AUD = Math.abs(data.rates.AUD.rate);
       let roundedAUD = AUD.toFixed(2);
 
       document.getElementById("cardCAD").innerText =
